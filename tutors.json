@@ -1,0 +1,275 @@
+{
+  "mark": {
+    "fullName": "Mark Smith",
+    "tutorID": "001",
+    "image_path": "imgs/001.png",
+    "education": "Bachelor's degree in Mechanical Engineering",
+    "yearsOfExperience": 6,
+    "ratePerHour": 40,
+    "teachingFormat": "In-person",
+    "specialty": "Combinatorics",
+    "reviews": [
+      {
+        "name": "Ismail Abouamal",
+        "rating": "3",
+        "review": "This tutor is Amazing.",
+        "timestamp": "Thu, 08 Jun 2023 01:23:43 GMT"
+      },
+      {
+        "name": "Benhaman",
+        "rating": "2",
+        "review": "This is in OK tutor. Nothing impressive.",
+        "timestamp": "Thu, 08 Jun 2023 05:15:04 GMT"
+      },
+      {
+        "name": "Andrea",
+        "rating": "5",
+        "review": "Really an amazing tutor! ",
+        "timestamp": "Thu, 08 Jun 2023 19:10:56 GMT"
+      },
+      {
+        "name": "Trung ",
+        "rating": "5",
+        "review": "I really liked this guy!",
+        "timestamp": "Thu, 08 Jun 2023 21:02:11 GMT"
+      }
+    ],
+    "AboutMe": "Hi! My name is Mark and I have been tutoring for 6 years now. I really enjoy this."
+  },
+  "emily": {
+    "fullName": "Emily Johnson",
+    "tutorID": "002",
+    "image_path": "imgs/002.png",
+    "education": "Master's degree in Computer Science",
+    "yearsOfExperience": 4,
+    "ratePerHour": 35,
+    "teachingFormat": "Online",
+    "specialty": "Calculus",
+    "reviews": [
+      {
+        "name": "Ismail Abouamal",
+        "rating": "3",
+        "review": "I really like Emily.",
+        "timestamp": "Thu, 08 Jun 2023 19:08:17 GMT"
+      }
+    ],
+    "AboutMe": "Hi, I'm Emily. I have a passion for teaching and helping students succeed in their studies."
+  },
+  "alex": {
+    "fullName": "Alex Davis",
+    "tutorID": "003",
+    "image_path": "imgs/003.png",
+    "education": "Bachelor's degree in Fine Arts",
+    "yearsOfExperience": 3,
+    "ratePerHour": 30,
+    "teachingFormat": "In-person",
+    "specialty": "Probability",
+    "reviews": [],
+    "AboutMe": "Hello! I'm Alex. I have a strong background in Probability and enjoy sharing my knowledge with students."
+  },
+  "sarah": {
+    "fullName": "Sarah Thompson",
+    "tutorID": "004",
+    "image_path": "imgs/004.png",
+    "education": "Bachelor's degree in Psychology",
+    "yearsOfExperience": 5,
+    "ratePerHour": 45,
+    "teachingFormat": "Online",
+    "specialty": "Combinatorics",
+    "reviews": [
+      {
+        "name": "Ismail",
+        "rating": "5",
+        "review": "She is amazing ",
+        "timestamp": "Thu, 08 Jun 2023 01:47:10 GMT"
+      }
+    ],
+    "AboutMe": "Hi, I'm Sarah. I have a deep understanding of Combinatorics and love helping students excel in this subject."
+  },
+  "jason1": {
+    "fullName": "Jason Brown",
+    "tutorID": "005",
+    "image_path": "imgs/005.png",
+    "education": "Master's degree in Business Administration",
+    "yearsOfExperience": 7,
+    "ratePerHour": 50,
+    "teachingFormat": "In-person",
+    "specialty": "Calculus",
+    "reviews": [
+      {
+        "name": "Ismail",
+        "rating": "4",
+        "review": "Jason is really nice and patient. I had a session with him last week.",
+        "timestamp": "Wed, 07 Jun 2023 23:44:09 GMT"
+      },
+      {
+        "name": "Jeffrey",
+        "rating": "5",
+        "review": "I really liked my session with this awesome tutor.",
+        "timestamp": "Thu, 08 Jun 2023 01:05:52 GMT"
+      },
+      {
+        "name": "x",
+        "rating": "4",
+        "review": "x",
+        "timestamp": "Thu, 08 Jun 2023 04:14:10 GMT"
+      }
+    ],
+    "AboutMe": "Hello, I'm Jason. I have extensive experience in teaching Calculus and helping students grasp complex concepts."
+  },
+  "lily": {
+    "fullName": "Lily Wilson",
+    "tutorID": "006",
+    "image_path": "imgs/006.png",
+    "education": "Bachelor's degree in Music",
+    "yearsOfExperience": 4,
+    "ratePerHour": 35,
+    "teachingFormat": "Online",
+    "specialty": "Probability",
+    "reviews": [],
+    "AboutMe": "Hi there! I'm Lily, a dedicated tutor with a passion for Probability. Let's explore this exciting subject together!"
+  },
+  "michael": {
+    "fullName": "Michael Adams",
+    "tutorID": "007",
+    "image_path": "imgs/007.png",
+    "education": "Ph.D. in Physics",
+    "yearsOfExperience": 8,
+    "ratePerHour": 60,
+    "teachingFormat": "In-person",
+    "specialty": "Combinatorics",
+    "reviews": [
+      {
+        "name": "Ismail",
+        "rating": "3",
+        "review": "I had a session with this tutor and I was really happy about it.",
+        "timestamp": "Thu, 08 Jun 2023 00:43:56 GMT"
+      }
+    ],
+    "AboutMe": "Hello, I'm Michael. With my Ph.D. in Physics, I can provide expert tutoring in Combinatorics and help students excel."
+  },
+  "jessica": {
+    "fullName": "Jessica Green",
+    "tutorID": "008",
+    "image_path": "imgs/008.png",
+    "education": "Master's degree in Special Education",
+    "yearsOfExperience": 6,
+    "ratePerHour": 40,
+    "teachingFormat": "Online",
+    "specialty": "Calculus",
+    "reviews": [],
+    "AboutMe": "Hi, I'm Jessica. I specialize in tutoring Calculus and am passionate about creating a supportive learning environment."
+  },
+  "ahmed": {
+    "fullName": "Ahmed Ali",
+    "tutorID": "009",
+    "image_path": "imgs/009.png",
+    "education": "Bachelor's degree in International Relations",
+    "yearsOfExperience": 4,
+    "ratePerHour": 30,
+    "teachingFormat": "In-person",
+    "specialty": "Probability",
+    "reviews": [],
+    "AboutMe": "Hello! I'm Ahmed. I have a solid foundation in Probability and can assist students in mastering the subject."
+  },
+  "ryan": {
+    "fullName": "Ryan Parker",
+    "tutorID": "010",
+    "image_path": "imgs/010.png",
+    "education": "Bachelor's degree in Physical Education",
+    "yearsOfExperience": 3,
+    "ratePerHour": 35,
+    "teachingFormat": "Online",
+    "specialty": "Combinatorics",
+    "reviews": [
+      {
+        "name": "Ismail",
+        "rating": "3",
+        "review": "I love how he teaches Mathematics.",
+        "timestamp": "Thu, 08 Jun 2023 22:32:44 GMT"
+      }
+    ],
+    "AboutMe": "Hi, I'm Ryan. As a Physical Education graduate, I can provide unique insights into Combinatorics and help students succeed."
+  },
+  "olivia": {
+    "fullName": "Olivia Mitchell",
+    "tutorID": "011",
+    "image_path": "imgs/011.png",
+    "education": "Bachelor's degree in Computer Science",
+    "yearsOfExperience": 5,
+    "ratePerHour": 40,
+    "teachingFormat": "In-person",
+    "specialty": "Calculus",
+    "reviews": [
+      {
+        "name": "Ismail",
+        "rating": "4",
+        "review": "Olivia is great",
+        "timestamp": "Wed, 07 Jun 2023 23:31:01 GMT"
+      }
+    ],
+    "AboutMe": "Hello, I'm Olivia. With a strong background in Computer Science, I can guide students in mastering Calculus."
+  },
+  "ethan": {
+    "fullName": "Ethan Turner",
+    "tutorID": "012",
+    "image_path": "imgs/012.png",
+    "education": "Master's degree in Environmental Science",
+    "yearsOfExperience": 4,
+    "ratePerHour": 35,
+    "teachingFormat": "Online",
+    "specialty": "Probability",
+    "reviews": [],
+    "AboutMe": "Hi, I'm Ethan. I specialize in Probability and am excited to help students develop a solid understanding of the subject."
+  },
+  "angus": {
+    "fullName": "Angus Campbell",
+    "tutorID": "013",
+    "image_path": "imgs/013.png",
+    "education": "Bachelor's degree in Early Childhood Education",
+    "yearsOfExperience": 6,
+    "ratePerHour": 40,
+    "teachingFormat": "In-person",
+    "specialty": "Combinatorics",
+    "reviews": [
+      {
+        "name": "Ismail",
+        "rating": "3",
+        "review": "Angus is very fiendly.",
+        "timestamp": "Thu, 08 Jun 2023 22:25:58 GMT"
+      }
+    ],
+    "AboutMe": "Hello, I'm Angus. I have a background in Early Childhood Education and can provide effective tutoring in Combinatorics."
+  },
+  "sofia": {
+    "fullName": "Sofia Young",
+    "tutorID": "014",
+    "image_path": "imgs/014.png",
+    "education": "Bachelor's degree in Early Childhood Education",
+    "yearsOfExperience": 6,
+    "ratePerHour": 40,
+    "teachingFormat": "In-person",
+    "specialty": "Combinatorics",
+    "reviews": [
+      {
+        "name": "Ismail Abouamal",
+        "rating": "5",
+        "review": "Sofia is a really nice tutor.",
+        "timestamp": "Thu, 08 Jun 2023 01:02:30 GMT"
+      }
+    ],
+    "AboutMe": "Hi, I'm Sofia. With my expertise in Early Childhood Education, I can help students excel in Combinatorics."
+  },
+  "jason2": {
+    "fullName": "Jason Taylor",
+    "tutorID": "015",
+    "image_path": "imgs/015.png",
+    "education": "Master's degree in Mathematics",
+    "yearsOfExperience": 8,
+    "ratePerHour": 55,
+    "teachingFormat": "In-person",
+    "specialty": "Calculus",
+    "reviews": [],
+    "AboutMe": "Hello, I'm Jason. With a Master's degree in Mathematics, I can provide advanced tutoring in Calculus."
+  }
+}
