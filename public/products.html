@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+
+<!--
+    * Author: Ismail Abouamal
+    * Date: June 9, 2023
+    * CS 132 Spring 2023
+    * This is the product page for the final project.
+    * Avatars egenerated from https://getavataaars.com/ 
+    * background image is from https://pngtree.com/freebackground/mathematics-background-math-notes_1472713.html
+
+-->
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+     <link href="styles.css" rel="stylesheet" /> 
+     <script defer src="helpers.js"></script>
+     <script defer src="products.js"></script>
+     <script defer src="reviews.js"></script>
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet"> 
+    <title>Find a tutor</title>
+
+   </head>
+
+  <body>
+
+    <header>
+      <nav class="nav">
+
+        <div id="top-bar">
+        </div>
+
+
+        <!-- top bar -->
+            <div class="nav-wrapper-container">
+              <div class="nav-wrapper-left">
+                <div >
+                  <img id="logo" src="logo.jpg" alt="Ma-Tutor logo">
+                </div> 
+              </div>
+              <div class="nav-wrapper-right"> 
+                  <ul>
+                      <li >
+                        <a  href="index.html" > Our mission </a> 
+                      </li>
+                    
+                      <li>
+                        <a href="products.html">Find a tutor</a>
+                      </li>
+                                            
+                      <li>
+                        <a href="ContactUS.html" >Contact Us</a>
+                      </li>
+ 
+                        
+                  </ul>
+  
+              </div>
+
+            </div>
+
+        <!-- container -->        
+      </nav>  
+    </header>
+
+    <main>
+        <div id="search-bar-container" class="container">
+          <div class="menu-bar">
+
+
+  
+            <div class="search-cell">
+                <select name="specialty" id="specialty">
+                  <option value="Combinatorics" > Combinatorics</option>
+                  <option value="Calculus" selected> Calculus</option>
+                  <option value="Probability"> Probabilty</option>
+                </select>
+            </div>
+  
+
+  
+            <div >
+              <button id="filter-button" > Apply filter</button>
+            </div>
+
+          </div>
+        
+        </div>
+
+
+        <div id="products-view"> 
+
+          <div id="results">
+            <!-- <div class="tutor">
+             <img src="http://localhost:8000/imgs/001.png" alt="Abouamal">
+             <h4>Name: Ismail Abouamal</h4>
+ 
+            <div class = "more-info">
+               <button> More info</button>
+             </div>
+           </div> -->
+         </div>
+
+        </div>
+    
+
+        <div id="single-view" class="hide">
+
+          <div class="hide"> 
+            <div id="review-form"> 
+              <div class="contact-container">
+
+                <div id="contact-form-cont">
+                  <form id="reviewForm">
+
+                    <div class="row-flex" style="display: none;"> 
+                      <div>Tutors Name:</div>
+                     <div>
+                        <input id = 'tutorNickName' class="input-area" name="tutorNickName" type="text"  required/>
+                      </div>
+                    </div>
+
+                    <div class="row-flex"> 
+                      <div>Your Name:</div>
+                     <div>
+                        <input class="input-area" name="name" type="text" required/>
+                      </div>
+                    </div>
+        
+                    <div class="row-flex"> 
+                      <div>Rating:</div>
+                     <div class="rating">
+                      <input type="radio" id="star1" name="rating" value="1">
+                      <label for="star1"> <span>&#9734</span> </label>
+                      <input type="radio" id="star2" name="rating" value="2" >
+                      <label for="star2"><span>&#9734</span></label>
+                      <input type="radio" id="star3" name="rating" value="3">
+                      <label for="star3"><span>&#9734</span></label>
+                      <input type="radio" id="star4" name="rating" value="4">
+                      <label for="star4"><span>&#9734</span></label>
+                      <input type="radio" id="star5" name="rating" value="5">
+                      <label for="star5"><span>&#9734</span></label>
+                    </div>
+                    </div>
+        
+                    <div class="row-flex"> 
+                      <div>Review:</div>
+      
+                     <div id="comment" >
+                       <textarea name="review" rows="4" cols="40" required ></textarea>
+                      </div>
+                    </div>
+        
+                  <div > 
+                     <div class="center">
+                       <button id="submit-button">Submit your review</button>
+                      </div>
+                    </div>
+                </form>
+      
+                </div>
+
+              </div>   
+            </div>
+
+          </div>
+        
+
+          <div id="background-tutor-image">
+          </div>
+
+          <div id="profile-container">
+
+            
+            <div id="tutor-profil-left">
+              <div class="single-tutor-view">
+                <img src="" alt="">
+                <h3></h3>
+    
+               <div class = "single-more-info-view">
+                <ul>
+                  <li> Education: </li>
+                  <li> Years of Experience:</li>
+                  <li> rate Per Hour:</li>
+                  <li> teaching Format:</li>
+                  <li> Specialty: </li>
+                </ul>
+                </div>
+    
+                <div class = "more-info">
+                  <button id="contact-tutor"> Contact this tutor</button>
+                  <button id="write-review"> Write a review</button>
+
+                </div>
+              </div>   
+            </div>
+
+            <div id="tutor-profil-right">
+              <article >
+                <h3>Tell us more about yourself:</h3>
+               <section id="AboutMe"> </section>
+              </article>
+            </div>
+          
+
+            
+          
+          
+          </div> 
+          
+          <div id="reviews"> 
+            <div>
+              <h2> Reviews</h2>
+            </div>
+          <!-- To be populated-->
+          
+          </div>
+        </div>
+
+        
+    </main>
+
+    <footer>
+    <p> &copy; 2023</p>
+    </footer>
+    
+  </body>
+</html>

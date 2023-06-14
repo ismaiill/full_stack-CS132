@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+
+<!--
+    * Name: Ismail Abouamal
+    * Date: June 9, 2023
+    * CS 132 Spring 2023
+    * HTML code for the contact us page.
+  
+-->
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+     <link href="styles.css" rel="stylesheet" /> 
+     <script defer src="helpers.js"></script>
+     <script defer src="contactUs.js"></script>
+     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">  </head>
+     <title>Contact Us</title>
+  </head>
+
+  <body>
+    <header>
+      <nav class="nav">
+
+        <div id="top-bar">
+        </div>
+
+
+        <!-- top bar -->
+            <div class="nav-wrapper-container">
+              <div class="nav-wrapper-left">
+                <div >
+                  <img id="logo" src="logo.jpg" alt="Ma-Tutor logo">
+                </div> 
+              </div>
+              <div class="nav-wrapper-right"> 
+                  <ul>
+                      <li >
+                        <a  href="index.html" > Our mission </a> 
+                      </li>
+                    
+                      <li>
+                        <a href="products.html">Find a tutor</a>
+                      </li>
+                                            
+                      <li>
+                        <a href="ContactUS.html">Contact Us</a>
+                      </li>
+                        
+
+                        
+                  </ul>
+  
+              </div>
+
+            </div>
+
+        <!-- container -->        
+      </nav>  
+    </header>
+
+    <main>
+ 
+      <div class="Form-container">
+        
+        <div class="center">
+          <h2>Contact Us</h2>
+        </div>
+       </div>
+
+
+        <div class="contact-container">
+          <div id="contact-form-cont">
+            <form id="contactUsForm">
+              <div class="row-flex"> 
+                <div>Name:</div>
+               <div>
+                  <input class="input-area" name="name" type="text" required/></p>
+                </div>
+              </div>
+  
+              <div class="row-flex"> 
+                <div>Email:</div>
+               <div>
+                <input name="email" type="text" required/> 
+                </div>
+              </div>
+  
+              <div class="row-flex"> 
+                <div>Comment:</div>
+
+               <div id="comment" >
+                 <textarea name="comment" rows="4" cols="40" required ></textarea>
+                </div>
+              </div>
+  
+            <div > 
+               <div class="center">
+                 <button id="submit-button">Send your Comment</button>
+                </div>
+              </div>
+          </form>
+
+          </div>
+        </div>          
+      </div> 
+
+
+    </main>
+
+    <footer>
+    <p> &copy; 2023</p>
+    </footer>
+    
+  </body>
+</html>

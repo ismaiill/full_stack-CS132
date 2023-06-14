@@ -1,0 +1,312 @@
+/*
+ * Name: Ismail Abouamal
+ * Date: June 9, 2023
+ * CS 132 Spring 2023
+ * This is the styles.css for my final project. It is used for all three pages index.html, products.htm and contactUS.html pages.
+ */
+
+ @import url('https://fonts.googleapis.com/css?family=Oxygen:400,700&display=swap');
+
+ body {
+    background-color:#eff2f3;
+    font-family: Oxygen, sans-serif;
+    height: 100vh;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  main {
+    flex-grow: 2;
+  }
+  
+
+  #top-bar {
+    color: #fff;
+    font-size: 85%;
+    letter-spacing: .01em;
+    line-height: 50px;
+    background: linear-gradient(to bottom, #888888, #CCCCCC);
+
+}
+
+#top-bar,#profile-container{
+  justify-content: left;
+
+}
+
+
+#top-bar-right {
+  text-align: right;
+}
+
+.nav-wrapper-container, .nav-wrapper-right ul {
+  flex-direction: row;
+  background: #fff;
+  align-items: center;
+  list-style: none;
+}
+
+.nav-wrapper-container, .nav-wrapper-right ul,.search-container,.tutor,.review-entry{
+  justify-content: space-between;
+
+}
+
+.nav-wrapper-right{
+  width: 60%;
+}
+
+#top-bar-right,.nav-wrapper-right{
+  margin-right: 2%;
+  margin-left: 2%;
+  
+}
+
+
+#logo{
+  width: 20%;
+}
+.container {
+  background-color:  #fff;
+}
+
+.container,#specialty,#city,.single-tutor-view,#background-tutor-image,#reviews{
+  border-radius: 10px;
+}
+
+.container,#background-tutor-image,#profile-container,#reviews,#tutor-profil-right{
+  margin-left: 20px;
+
+}
+.menu-bar-form{
+margin-top: 3px;
+}
+.menu-bar-form,.more-info{
+  justify-content: space-evenly;
+
+}
+
+.input-field{
+  margin-bottom: 10px;
+}
+.input-field, #top-bar{
+  height: 50px;
+
+}
+
+
+#specialty,#city {
+  width: 95%;
+}
+
+#specialty,#city,#filter-button,#submit-button, #back-to-profil, #write-review, #contact-tutor{
+  padding: 10px;
+
+}
+
+#filter-button,#submit-button, #back-to-profil, #write-review, #contact-tutor{
+  cursor: pointer;
+}
+
+#filter-button,#background-tutor-image,#reviews{
+  margin-top: 2%;
+
+}
+
+
+
+.menu-bar-form,#top-bar{
+border-top-right-radius: 10px;
+border-top-left-radius: 10px;
+}
+.nav-wrapper-container{
+border-bottom-right-radius: 10px;
+border-bottom-left-radius: 10px;
+
+
+}
+.menu-bar{
+    justify-items: center;
+    padding: 20px;
+}
+.search-cell{
+  width: 30%;
+}
+#filter-button,#submit-button, #back-to-profil, #write-review, #contact-tutor,.tutor{
+  margin-bottom: 5px;
+}
+#filter-button,#submit-button, #back-to-profil, #write-review, #contact-tutor{
+  margin-top: 0px;
+
+}
+
+.menu-bar{
+  margin-top: 10px;
+}
+
+a {
+  text-decoration: none;
+}
+.nav-wrapper-widget{
+  box-shadow: 0 0 0.5em red;
+}
+#top-bar-right{
+  margin-left: 97%;
+  margin-right: 5%;
+  padding: 7px;
+}
+
+
+
+#results,.menu-bar,.search-container,.menu-bar-form{
+  flex-wrap: wrap;
+
+}
+.tutor{
+  width: 140px;
+  border-radius: 0.5em;
+  border-width: 0.35em;
+  margin: 5px;
+  padding: 15px;
+}
+
+
+
+.tutor,#logo{
+  margin-top: 5px;
+}
+
+
+
+
+.more-info{
+  margin-bottom: 5%;
+}
+.menu-bar-form,body,#results,.menu-bar,.search-container, .nav-wrapper-container, .nav-wrapper-right ul, .top-right-container, .more-info, .tutor, .single-tutor-view, .center,#contact-form-cont, .contact-container, #comment,#profile-container, .review-entry, #tutor-profil-right, footer{
+  display: flex;
+}
+
+.hide, input[type="radio"]{
+  display: none;
+}
+.single-tutor-view{
+  width: 300px;
+}
+
+.single-tutor-view,#contact-form-cont,.tutor{
+  border-style: solid;
+
+}
+
+.single-tutor-view, #tutor-profil-left div h3{
+  margin-left: auto;
+
+}
+
+.single-tutor-view, #tutor-profil-left div h3{
+  margin-right: auto;
+
+}
+
+
+.single-tutor-view, body,.tutor{
+  flex-direction: column;
+
+}
+
+
+#single-view{
+  height: 100%;
+}
+
+.center{
+  margin-bottom: 20px;
+}
+
+.center,#contact-form-cont,.contact-container,footer,.menu-bar,#results{
+  justify-content: center;
+
+}
+
+#contact-form-cont{
+  margin-right: 30%;
+  margin-left: 30%;
+}
+#contact-form-cont,.single-tutor-view,#background-tutor-image{
+  box-shadow: 0 0 0.5em purple;
+
+}
+
+
+.contact-container{
+  height: 50%;
+}
+#contactUsForm,.row-flex textarea,#tutor-profil-right,#tutor-profil-right > article,#single-view > div:nth-of-type(1),#filter-button{
+  width: 100%;
+}
+
+.row-flex{
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 2%;
+}
+
+
+
+#background-tutor-image{
+  height: 200px;
+}
+#profile-container{
+  margin-top: 20px;
+
+}
+
+#background-tutor-image,#profile-container,#reviews,.container{
+  margin-right: 20px;
+
+}
+
+
+#reviews{
+      margin-bottom: 2%;
+}
+
+#review,#tutor-profil-right > article{
+  padding: 0.8%;
+
+}
+
+#reviews,#tutor-profil-right{
+  background-color: white;
+
+}
+
+#background-tutor-image{
+  background-image: url('background.jpg');
+
+}
+
+.review-entry img {
+  width: 15px;
+  height: 15px;
+}
+
+
+
+
+.full-star{
+  color: gold;
+}
+#tutor-profil-right{
+  padding: 0.8px;
+  border-radius: 10px
+}
+
+
+#single-view > div:nth-of-type(1)   {
+  position: absolute;
+  backdrop-filter: blur(4px);
+
+}
+#review-form{
+  margin-top: 20%;
+}
+
