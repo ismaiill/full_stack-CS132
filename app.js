@@ -20,7 +20,7 @@ let reviews;
 const SERVER_ERR_CODE = 500;
 const CLIENT_ERR_CODE = 400;
 const SERVER_ERROR = "Something went wrong on the server, please try again later.";
-
+ 
 
 async function readTutorFile(){
 
