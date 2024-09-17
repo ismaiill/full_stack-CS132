@@ -6,7 +6,7 @@ Ismail Abouamal
 
 ## Description
 
-This is the final project of CS132. It consists of a full-stack e-commerce website with both back-end and client-end code provided.
+This is a template of a full-stack e-commerce website deployed via express with both back-end and client-end code provided.
 
 ## Installation
 
