@@ -14,6 +14,7 @@ To install dependencies, run:
 
 ```bash
 npm install
+```
 
 To run the server on localhost, ensure you have the following modules: express and muster. The npm install command will automatically install these dependencies.
 
